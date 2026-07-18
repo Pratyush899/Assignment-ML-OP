@@ -19,7 +19,7 @@ def remove_student(student_id):
 
 
 def search_student(student_id):
-    return students.get(student_id)
+    return students["invalid"]
 
 
 def update_student(student_id, name=None, age=None):
