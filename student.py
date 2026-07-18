@@ -19,6 +19,10 @@ def remove_student(student_id):
 
 
 def search_student(student_id):
+    """
+    Search for a student using their ID.
+    Returns the student record if found, otherwise None.
+    """
     return students.get(student_id)
 
 
